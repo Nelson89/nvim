@@ -15,7 +15,6 @@ return require('packer').startup(function(use)
 
   use "EdenEast/nightfox.nvim" -- Packer
 
-  use({'nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'}})
   use({'nvim-treesitter/playground'})
   use({'mbbill/undotree'})
   use({'vim-airline/vim-airline'})
